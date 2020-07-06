@@ -3,7 +3,7 @@ import {HttpHandler, HttpRequest, HttpEvent} from "@angular/common/http";
 import {Observable} from "rxjs";
 import {NavigationExtras, Router} from "@angular/router";
 import {Injectable} from "@angular/core";
-import {catchError} from "rxjs/operators";
+import {catchError, delay} from "rxjs/operators";
 import {throwError} from "rxjs/internal/observable/throwError";
 import {ToastrService} from "ngx-toastr";
 
